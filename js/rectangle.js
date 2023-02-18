@@ -14,6 +14,4 @@ document.getElementById('btn-rectangle-calculation').addEventListener('click',fu
     const calculationRectangleBtn=document.getElementById('calculated-rectangle');
     calculationRectangleBtn.innerText=areaOfRectangleWithTwoPrecision;
 
-    if(weight!=Number && length!=Number)
-alert('Please Enter Number');
 })
