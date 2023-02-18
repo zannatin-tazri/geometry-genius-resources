@@ -7,4 +7,6 @@ document.getElementById('btn-ellipse-calculation').addEventListener('click',func
     // setting innerText
     const calculationEllipseBtn=document.getElementById('calculated-ellipse');
     calculationEllipseBtn.innerText=areaOfEllipseWithTwoPrecision;
+
+    
 })
