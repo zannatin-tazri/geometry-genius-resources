@@ -16,9 +16,10 @@
                 <a class="navbar-brand fw-semibold fs-2">Interactive</a>
                 <p class="fs-6 text-secondary">Geometry Genius</p>
               </div>
-              <form class="d-flex" role="search">
+              <a href="answers.html">
                 <button class="btn btn-primary active" type="submit">Blog</button>
-              </form>
+              </a>
+              
             </div>
           </nav>
     </header>
@@ -33,12 +34,12 @@
                           <p class="card-text">Area (A) = 0.5 <i class="fa-solid fa-xmark"></i> b <i class="fa-solid fa-xmark"></i> h</p>
                           
                           <div class="input-group input-group-sm mb-3 px-5">
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="b">
+                            <input id="triangle-base" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="b">
                             <span class="input-group-text" id="inputGroup-sizing-sm">cm</span>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="l">
+                            <input id="triangle-height" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="l">
                             <span class="input-group-text" id="inputGroup-sizing-sm">cm</span>
                         </div>
-                        <button type="button" class="btn btn-primary active w-75 " data-bs-toggle="button" aria-pressed="true">Calculate</button>
+                        <button type="button" id="btn-triangle-calculation" class="btn btn-primary active w-75 " data-bs-toggle="button" aria-pressed="true">Calculate</button>
                       </div>
                     </div>
         
@@ -75,9 +76,34 @@
         
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100 p-2">
                     <p class="fw-bolder text-center"><u>Area Calculation</u></p>
+                    <div class="d-flex my-2">
+                      <p>1. Triangle <span id="calculated-triangle">00</span> cm<sup>2</sup></p>
+                      <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
+                    </div>
+                    <div class="d-flex my-2">
+                      <p>2. Rectangle <span>00</span> cm<sup>2</sup></p>
+                      <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
+                    </div>
+                    <div class="d-flex my-2">
+                      <p>3. Parallelogram <span>00</span> cm<sup>2</sup></p>
+                      <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
+                    </div>
+                    <div class="d-flex my-2">
+                      <p>4. Rhombus <span>00</span> cm<sup>2</sup></p>
+                      <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
+                    </div>
+                    <div class="d-flex my-2">
+                      <p>5. Pentagon <span>00</span> cm<sup>2</sup></p>
+                      <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
+                    </div>
+                    <div class="d-flex my-2">
+                      <p>6. Ellipse <span>00</span> cm<sup>2</sup></p>
+                      <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
+                    </div>
                   </div>
+                  
                 </div>
               </div>
               <div class="row row-cols-1 row-cols-md-4 m-5 g-4">
@@ -125,5 +151,6 @@
               </div>
 
         </main>
+        <script src="js/triangle.js"></script>
 </body>
 </html>
