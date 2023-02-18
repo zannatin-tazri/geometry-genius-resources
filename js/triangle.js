@@ -1,3 +1,4 @@
+// add eventlistener
 document.getElementById('btn-triangle-calculation').addEventListener('click',function(){
 // get value of base
 const baseField=document.getElementById('triangle-base');

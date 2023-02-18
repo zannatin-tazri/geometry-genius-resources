@@ -90,7 +90,7 @@
                       <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
                     </div>
                     <div class="d-flex my-2">
-                      <p>4. Rhombus <span>00</span> cm<sup>2</sup></p>
+                      <p>4. Rhombus <span id="calculated-rhombus">00</span> cm<sup>2</sup></p>
                       <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
                     </div>
                     <div class="d-flex my-2">
@@ -111,10 +111,10 @@
                         <img src="images/rhombus.png" class="card-img-top p-5 mb-5" alt="...">
                         <div class="card-body text-center">
                           <h5 class="card-title fw-bolder">Rhombus</h5>
-                          <p class="card-text">Area (A) = 0.5 <i class="fa-solid fa-xmark"></i> b <i class="fa-solid fa-xmark"></i> h</p>
+                          <p class="card-text">Area (A) = 0.5 <i class="fa-solid fa-xmark"></i> d<sub>1</sub>  <i class="fa-solid fa-xmark"></i> d<sub>2</sub></p>
                           <p>d<sub>1</sub> = 16cm  d<sub>2</sub> = 8cm</p>
                           
-                        <button type="button" class="btn btn-primary active w-75 " data-bs-toggle="button" aria-pressed="true">Calculate</button>
+                        <button type="button" id="btn-rhombus-calculation" class="btn btn-primary active w-75 " data-bs-toggle="button" aria-pressed="true">Calculate</button>
                       </div>
                     </div>
         
@@ -148,10 +148,10 @@
         
                 </div>
               </div>
-
         </main>
         <script src="js/triangle.js"></script>
         <script src="js/rectangle.js"></script>
         <script src="js/Parallelogram.js"></script>
+        <script src="js/Rhombus.js"></script>
 </body>
 </html>

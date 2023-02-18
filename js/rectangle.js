@@ -1,3 +1,4 @@
+// // add eventlistener
 document.getElementById('btn-rectangle-calculation').addEventListener('click',function(){
     // get value of weight
     weightField=document.getElementById('rectangle-weight');
