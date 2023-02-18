@@ -10,8 +10,9 @@ const height=heightField.value;
  
 // calculation
 const areaOfTriangle=0.5*base*height;
+areaOfTriangleWithTwoPrecision=areaOfTriangle.toFixed(2);
 const calculationTriangleBtn=document.getElementById('calculated-triangle');
-calculationTriangleBtn.innerText=areaOfTriangle;
+calculationTriangleBtn.innerText=areaOfTriangleWithTwoPrecision;
 })
 
 

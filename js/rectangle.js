@@ -10,6 +10,7 @@ document.getElementById('btn-rectangle-calculation').addEventListener('click',fu
 
     // calculation
     const areaOfRectangle=weight*length;
+    const areaOfRectangleWithTwoPrecision=areaOfRectangle.toFixed(2);
     const calculationRectangleBtn=document.getElementById('calculated-rectangle');
-    calculationRectangleBtn.innerText=areaOfRectangle;
+    calculationRectangleBtn.innerText=areaOfRectangleWithTwoPrecision;
 })

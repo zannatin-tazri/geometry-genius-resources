@@ -3,8 +3,8 @@ document.getElementById('btn-ellipse-calculation').addEventListener('click',func
     const a=10;
     const b=4;
     const areaOfEllipse=3.14*10*4;
-
+    const areaOfEllipseWithTwoPrecision=areaOfEllipse.toFixed(2);
     // setting innerText
     const calculationEllipseBtn=document.getElementById('calculated-ellipse');
-    calculationEllipseBtn.innerText=areaOfEllipse;
+    calculationEllipseBtn.innerText=areaOfEllipseWithTwoPrecision;
 })
