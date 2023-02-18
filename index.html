@@ -68,9 +68,8 @@
                         <div class="card-body text-center">
                           <h5 class="card-title fw-bolder">Parallelogram</h5>
                           <p class="card-text mb-4">Area (A) = b <i class="fa-solid fa-xmark"></i> h</p>
-                          
-                          
-                        <button type="button" class="btn btn-primary active w-75 mt-4" data-bs-toggle="button" aria-pressed="true">Calculate</button>
+                          <p>b=10cm, h=12cm</p>
+                        <button type="button" id="btn-parallelogram-calculation" class="btn btn-primary active w-75 mt-4" data-bs-toggle="button" aria-pressed="true">Calculate</button>
                       </div>
                     </div>
         
@@ -87,7 +86,7 @@
                       <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
                     </div>
                     <div class="d-flex my-2">
-                      <p>3. Parallelogram <span>00</span> cm<sup>2</sup></p>
+                      <p>3. Parallelogram <span id="calculated-parallelogram">00</span> cm<sup>2</sup></p>
                       <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
                     </div>
                     <div class="d-flex my-2">
@@ -153,5 +152,6 @@
         </main>
         <script src="js/triangle.js"></script>
         <script src="js/rectangle.js"></script>
+        <script src="js/Parallelogram.js"></script>
 </body>
 </html>
