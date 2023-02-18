@@ -52,12 +52,12 @@
                           <p class="card-text">Area (A) = w <i class="fa-solid fa-xmark"></i> l</p>
                           
                           <div class="input-group input-group-sm mb-3 px-5">
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="w">
+                            <input type="text" id="rectangle-weight" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="w">
                             <span class="input-group-text" id="inputGroup-sizing-sm">cm</span>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="l">
+                            <input type="text" id="rectangle-length" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="l">
                             <span class="input-group-text" id="inputGroup-sizing-sm">cm</span>
                         </div>
-                        <button type="button" class="btn btn-primary active w-75 " data-bs-toggle="button" aria-pressed="true">Calculate</button>
+                        <button type="button" id="btn-rectangle-calculation" class="btn btn-primary active w-75 " data-bs-toggle="button" aria-pressed="true">Calculate</button>
                       </div>
                     </div>
         
@@ -83,7 +83,7 @@
                       <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
                     </div>
                     <div class="d-flex my-2">
-                      <p>2. Rectangle <span>00</span> cm<sup>2</sup></p>
+                      <p>2. Rectangle <span id="calculated-rectangle">00</span> cm<sup>2</sup></p>
                       <button class="btn btn-primary active">Convert to m<sup>2</sup> </button>
                     </div>
                     <div class="d-flex my-2">
@@ -152,5 +152,6 @@
 
         </main>
         <script src="js/triangle.js"></script>
+        <script src="js/rectangle.js"></script>
 </body>
 </html>
